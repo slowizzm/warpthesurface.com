@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>Flat Earth Interactive</title>
+<!--Adobe Edge Runtime-->
+    <script type="text/javascript" charset="utf-8" src="edge_includes/edge.6.0.0.min.js"></script>
+    <style>
+        .edgeLoad-flat_earth_interactive { visibility:hidden; }
+    </style>
+<script>
+   AdobeEdge.loadComposition('flatEarth', 'flat_earth_interactive', {
+    scaleToFit: "width",
+    centerStage: "both",
+    minW: "0px",
+    maxW: "undefined",
+    width: "1440px",
+    height: "720px"
+}, {dom: [ ]}, {dom: [ ]});
+</script>
+<!--Adobe Edge Runtime End-->
+
+<style type="text/css">
+	@font-face {
+		font-family: snaredrum;
+		src:url(fonts/SDONE_0.ttf);
+		}
+@font-face {
+		font-family: sadmachine;
+		src: url(fonts/SadMachine.ttf);
+		}		
+body {
+	background-color: #000000;
+	background-size: cover;
+}
+</style>
+		
+		
+
+</head>
+<body style="margin:0;padding:0;">
+	<div id="Stage" class="flat_earth_interactive">
+	</div>
+</body>
+</html>
